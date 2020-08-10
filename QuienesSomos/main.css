@@ -1,0 +1,34 @@
+/********************** Estilos Header *********************/
+.imgHeader{ background-image: url("../assets/img/quienes-somos-e-channel-header.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 90vh;
+    background-color: #d5d3d4;
+}
+/********************** Fin Estilos Header ******************/
+
+/********************** Estilos Section 1 *********************/
+.tituloSeccion1{font-weight: 700;}
+.parrafoSeccion1-1{font-size: 1.1rem; font-weight: 700;line-height: 1.2;}
+.parrafoSeccion1-2{font-size: 1rem;line-height: 1.2;font-weight: 700;}
+.borderSeccion1{border: 2px solid #3e68ff !important;}
+
+/********************** Fin Estilos Section 1 *****************/
+
+/********************** Estilos Section 2 *********************/
+.seccion2{ background-image: url("../assets/img/quienes-somos-e-channel-image-2.jpg");background-repeat: no-repeat;background-position: center; background-color: #f4f4f4;}
+/********************** Fin Estilos Section 2 *****************/
+
+/********************** Estilos Section 3 *********************/
+.seccion3{line-height: 1;}
+.subtituloSeccion3{font-size: 0.8rem;line-height: 1 !important;}
+/********************** Fin Estilos Section 3 *****************/
+
+@media (max-width: 767.98px) { 
+    /********************* Estilos Section 1 ******************/
+    .tituloSeccion1{font-size: 1.5rem; font-weight: 500;}
+    .parrafoSeccion1-1{font-size: 1rem; font-weight: 500;line-height: 1.1;}
+    .parrafoSeccion1-2{font-size: 0.8rem;line-height: 1.1;font-weight: 500;}
+    .borderSeccion1{border: 2px solid #3e68ff !important;}
+    /******************** Fin Estilos Section 1 ***************/ 
+}

@@ -1,0 +1,76 @@
+/********************** Estilos Varios ************************/
+.colorBlanco{color: #fff;}
+.colorAzulOscuro{color: #2a3981;}
+.colorAzulOscuro-2{color: #3f68fe;}
+.colorAzulClaro{color: #3e68ff;}
+.colorAzulClaro-2{color: #5f99ff;}
+.colorGris{color: #95a4ac;}
+/********************** Fin Estilos Varios ********************/
+
+/********************** Estilos Navbar ************************/
+.nav-item{padding: 0 1rem;}
+.textNav{font-size: 0.8rem;font-weight: 700;}
+.nav-link{font-size: 1.2rem;}
+.iconoTelefono1{justify-content: end !important;}
+.iconoTelefono{width: 100% !important;}
+@media (min-width: 1400px) { 
+    .pl7{padding-left: 5rem !important;}
+    .pr7{padding-right: 5rem !important;} }
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+    .pl7{padding-left: 2rem !important;}
+    .pr7{padding-right: 2rem !important;} 
+    .nav-link{font-size: 1rem;}}
+@media (min-width: 992.98px) and (max-width: 1199.98px) { 
+    .pl7{padding-left: 0rem !important;}
+    .pr7{padding-right: 0rem !important;} 
+    .nav-link{font-size: 0.8rem;}
+    .textNav{font-size: 0.6rem;font-weight: 700;}}
+@media (max-width: 991.98px) { 
+    .buscar-txt { margin-left: 1rem; }
+    .buscar-btn { float: inherit !important; }
+    .iconoTelefono1{justify-content: center !important;}
+    .iconoTelefono{width: 50% !important;}}
+/********************** Fin Estilos Navbar ********************/
+
+
+/********************** Estilos Buscador **********************/
+.buscar-caja:hover > .buscar-txt {
+    width: 150px;
+    padding: 0 4px;}   
+.buscar-btn {
+    float: right;
+    width: 40px;
+    height: 40px;    
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    color: white;
+    cursor: pointer;
+    border: none !important;}   
+.buscar-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 0.8rem;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+    font-weight: bold;
+    background:#72a6ff;}
+/********************** Fin Estilos Buscador ******************/
+
+/********************** Estilos Footer ************************/
+.fondoFooter{background-color:#3759f0;}
+.parrafoFooter{font-size: 0.6rem;}
+.textoFooter2{text-align: end;}
+.footerLink{cursor: pointer;}
+.footerLink:hover{color: #2a3981;}
+@media (max-width: 576px) { 
+    .textoFooter{font-size: 0.8rem;}
+    .textoFooter2{text-align: start !important;}}
+/********************** Fin Estilos Footer ********************/

@@ -1,0 +1,95 @@
+/********************** Estilos Header *********************/
+.imgHeader{ background-image: url("../assets/img/productos-e-channel-header.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 90vh;
+    background-color: #1d1216;
+}
+/********************** Fin Estilos Header ******************/
+
+/********************** Estilos Section 1 *********************/
+.seccion-1{background-color: #f6f7fb; padding-bottom: 5rem;}
+.seccion1{font-size: 0.7rem; text-align: center;font-weight: 700;}
+.seccion1-1{position: absolute !important; top: 45%;}
+.seccion1-2{position: absolute !important; top: 32%;}
+.seccion1-3{position: absolute !important; top: 85%;}
+.seccion1-4{position: absolute !important; top: 99%;}
+.textoSeccion1-1{right: 5%;}
+.textoSeccion1-2{right: 4%;}
+.textoSeccion1-3{right: 1%;}
+.textoSeccion1-4{left:1%;}
+.textoSeccion1-5{left: 2%;}
+.textoSeccion1Movil{font-size: 0.7rem;}
+@media (max-width: 767.98px) {.displaySeccion1{display: none;}}
+@media (min-width: 768px) {.displaySeccion1Movil{display: none;}}
+@media (min-width: 768px) and (max-width: 991.98px) { .seccion1{font-size: 0.6rem;}}
+@media (max-width: 991.98px) { .container{max-width: inherit !important;}}
+@media (max-width: 575.98px) {  
+    .tituloSeccion1{font-size: 1rem;} 
+    .parrafoSeccion1{font-size: 0.6rem;} 
+    .iconosMovil{width: 50% !important;} }
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .tituloSeccion1{font-size: 1.25rem;} 
+    .parrafoSeccion1{font-size: 0.8rem;}
+    .iconosMovil{width: 75% !important;} }
+/********************** Fin Estilos Section 1 *****************/
+
+/********************** Estilos Section 2 *********************/
+.bordeSeccion2{ border-right: 4px solid #3a67fe;}
+.sombraCuadro{border: 1px solid #ffffff;border-radius: 0.75rem;box-shadow: 2px 2px 0 #e6e6e6;}
+.sombraCuadro2{background-color: #5f99ff;border: 1px solid #5f99ff;border-radius: 0.75rem;box-shadow: 2px 2px 0 #e6e6e6;}
+.textoSeccion2{font-size: 0.7rem; font-weight: 700;}
+@media (max-width: 575.98px) {  
+    .tituloSeccion2{font-size: 1rem;} 
+    .parrafoSeccion2{font-size: 0.6rem;} 
+    .seccion2p0{padding: 0 !important;} 
+    .seccion2p1{padding: 0.5rem !important;} 
+    .parrafoSeccion2-2{font-size: 0.75rem;}
+    .textoSeccion2{font-size: 0.5rem;}
+    .textoSeccion2-1{font-size: 0.6rem;}
+    .textoSeccion2-2{font-size: 0.7rem;}
+    .parrafoSeccion2-1{font-size: 0.8rem;}
+}
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .tituloSeccion2{font-size: 1.25rem;} 
+    .parrafoSeccion2{font-size: 0.8rem;} 
+    .parrafoSeccion2-2{font-size: 0.75rem;}
+    .textoSeccion2{font-size: 0.5rem;}
+    .textoSeccion2-1{font-size: 0.6rem;}
+    .textoSeccion2-2{font-size: 0.7rem;}
+}
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .tituloSeccion2{font-size: 1.5rem;} 
+    .parrafoSeccion2{font-size: 0.9rem;}
+    .parrafoSeccion2-2{font-size: 0.9rem;}
+    .textoSeccion2{font-size: 0.6rem;}
+    .textoSeccion2-1{font-size: 0.7rem;}
+    .textoSeccion2-2{font-size: 1rem;}
+    .seccion2p1{padding: 0.7rem !important;} 
+}    
+@media (max-width: 575.98px) {.displaySeccion2-1{display: none !important;}}
+@media (min-width: 576px) {.displaySeccion2-1Movil{display: none;}}
+/********************** Fin Estilos Section 2 *****************/
+
+/********************** Fin Estilos Section 3 *****************/
+.seccion-3{background-color: #f6f7fb; padding-bottom: 5rem;}
+.seccion3{font-size: 0.7rem; text-align: center;font-weight: 700;}
+.seccion3-1{position: absolute !important; top: 100%;}
+.seccion3-2{position: absolute !important; top: 70%;}
+.textoSeccion3-1{right: 5%;}
+.textoSeccion3-2{right: 4%;}
+.textoSeccion3-3{right: 2%;}
+.textoSeccion3-4{left: 0%;}
+.textoSeccion3-5{left: 1%;}
+@media (max-width: 767.98px) {.displaySeccion3{display: none;}}
+@media (min-width: 768px) {.displaySeccion3Movil{display: none;}}
+@media (min-width: 768px) and (max-width: 991.98px) { .seccion3{font-size: 0.6rem;}}
+@media (max-width: 575.98px) {  
+    .tituloSeccion3{font-size: 1rem;} 
+    .parrafoSeccion3{font-size: 0.6rem;} 
+    .iconosMovil3{width: 50% !important;} }
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .tituloSeccion3{font-size: 1.25rem;} 
+    .parrafoSeccion3{font-size: 0.8rem;}
+    .iconosMovil3{width: 75% !important;}}
+/********************** Fin Estilos Section 3 *****************/

@@ -1,0 +1,73 @@
+/********************** Estilos Header *********************/
+.imgHeader{ background-image: url("../assets/img/home-e-channel-header.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 100vh;
+    background-color: #181824;
+}
+.textoHeader{
+    position: absolute;    
+    bottom: 35%;
+    left: 5%;
+}
+.textoHeader1{
+    font-size: 3.5rem;
+    letter-spacing: -3px;
+}
+.textoHeader2{
+    font-size: 3.5rem;
+    letter-spacing: -3px;
+    line-height: 1;
+}
+/********************** Fin Estilos Header ********************/
+
+/********************** Estilos Section 1 *********************/
+.parrafoProductos{font-size: 0.8rem;}
+/********************** Fin Estilos Section 1 *****************/
+
+/********************** Estilos Section 3 *********************/
+.seccion3{background-color: #f6f7fb;}
+.tituloSeccion3{padding-top: 5rem; padding-bottom: 3.5rem;}
+.parrafoSeccion3{font-size: 1rem;}
+/********************** Fin Estilos Section 3 *****************/
+
+/********************** Estilos Section 4 *********************/
+.seccion4{ 
+    background-image: url("../assets/img/home-e-channel-bg-quote.jpg");
+    background-repeat: no-repeat;background-position: top center; 
+    padding: 12rem 0rem;
+    background-color: #14276b;}
+/********************** Fin Estilos Section 4 *****************/
+
+@media (max-width: 576px) { 
+    /****************** Estilos Section 3 y 4*****************/
+    .parrafoSeccion3{font-size: 0.8rem;}
+    .parrafoSeccion3-2{font-size: 1rem;}
+    .parrafoSeccion4{font-size: 1rem;}
+    /****************** Fin Estilos Section 3 y 4 *************/ 
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /****************** Estilos Section 3 y 4 *****************/     
+    .parrafoSeccion3{font-size: 0.9rem;}
+    .parrafoSeccion3-2{font-size: 1.2rem;}  
+    .parrafoSeccion4{font-size: 1.2rem;}  
+    /****************** Fin Estilos Section 3 y 4 *************/ 
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /****************** Estilos Section 3 y 4 *****************/
+    .parrafoSeccion3-2{font-size: 1.4rem;} 
+    .parrafoSeccion4{font-size: 1.4rem;} 
+    /****************** Fin Estilos Section 3 y 4 *************/ 
+
+}
+
+@media (min-width: 992px) and (max-width: 1239.98px) { 
+    /****************** Estilos Section 3 y 4 *****************/
+    .parrafoSeccion3-2{font-size: 1.6rem;} 
+    .parrafoSeccion4{font-size: 1.6rem;} 
+    /****************** Fin Estilos Section 3 y 4 *************/ 
+
+ }
